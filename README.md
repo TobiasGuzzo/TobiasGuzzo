@@ -1,105 +1,95 @@
-
-<!--horizontal divider(gradiant)-->
+<!--divisor horizontal (degradado)-->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<!--h1 without bottom border-->
+<!--h1 sin borde inferior-->
 <div id="user-content-toc">
   <ul align="center">
-    <summary><h1 style="display: inline-block">Hi 👋, Hola,soy Tobias Guzzo</h1></summary>
+    <summary><h1 style="display: inline-block">Hola 👋, soy Tobias Guzzo</h1></summary>
   </ul>
 </div>
 
-
-<!--- snake -->
+<!--- serpiente -->
 <div align="center">
-  <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg"
-       alt="snake" /></a>
+  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg" alt="serpiente" />
 </div>
 
-
-<!--h2 without bottom border-->
+<!--h2 sin borde inferior-->
 <div id="user-content-toc">
   <ul align="center">
-    <summary><h2 style="display: inline-block">Confusion is part of Programming</h2></summary>
+    <summary><h2 style="display: inline-block">La confusión es parte de la programación</h2></summary>
   </ul>
 </div>
 
+<!--Introducción inicio-->
+- 🔭 Actualmente estoy trabajando en **AWS, React, React Native, Nodejs, MongoDB**
 
-<!--Intro start-->
-- 🔭 I’m currently working on **AWS, React, React Native, Nodejs, MongoDB**
+- 🌱 Actualmente estoy aprendiendo **a combinar múltiples Hyper Beast Stack para aplicaciones escalables.**
 
-- 🌱 I’m currently learning **to put together multiple Hyper Beast Stack for Scalable Applications.**
+- ☁️ Tengo un gran interés en la computación en la nube, por lo que estoy aprendiendo **AWS**
 
-- ☁️ I've keen interest in cloud computing. So,I'm learning **AWS**
+- 📝 Regularmente escribo artículos en [Hashnode](https://1010nishant.hashnode.dev/)
 
-- 📝 I regularly write articles on [Hashnode](https://1010nishant.hashnode.dev/)
+- 💬 Pregúntame sobre **AWS, React, React Native, Nodejs, MongoDB**
 
-- 💬 Ask me about **AWS, react, react-native, nodejs, mongoDB**
+- 📫 No dudes en contactarme en **nishantjangid6377@gmail.com**
 
-- 📫 Feel free to reach me out **nishantjangid6377@gmail.com**
+- 🏠 No dudes en dejarme un **👋** en Discord – [1010nishant](https://discordapp.com/users/957722095381540874) ¡mi nombre de usuario!
+<!--Introducción fin-->
 
-- 🏠 Don't hesitate to drop me a **👋** on Discord –  [1010nishant](https://discordapp.com/users/957722095381540874) my username!
-<!--Intro end-->
-
-
-
-<!--- stats & Trophy (start) -->
+<!--- estadísticas y trofeos (inicio) -->
 <p align="center">
-  <!--- stats (start) -->
+  <!--- estadísticas (inicio) -->
 <table align="center">
 <tr border="none">
 <td width="50%" align="center">
   
-  <img  align="center"  src="https://github-readme-stats.vercel.app/api?username=1010nishant&theme=dark&show_icons=true&count_private=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=1010nishant&theme=dark&show_icons=true&count_private=true" />
   <br></br>
-  <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=1010nishant&theme=dark&hide_border=false" /> 
+  <img title="🔥 Obtén estadísticas de racha para tu perfil en git.io/streak-stats" alt="Racha de Mark" src="https://github-readme-streak-stats.herokuapp.com/?user=1010nishant&theme=dark&hide_border=false" /> 
 </td>
 
 <td width="50%" align="center">
 
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=1010nishant&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/>
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=1010nishant&theme=dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/>
   
   </td>
 </tr>
 </table>
-<!--- stats (end) -->
+<!--- estadísticas (fin) -->
 
-<!--- trophy (start) -->
-<div align=center>
-  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
-      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=1010nishant&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
+<!--- trofeos (inicio) -->
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Ir a la fuente">
+      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=1010nishant&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROFEOS" />
     </a>
 </div>
-<!--- trophy (start) -->
-
+<!--- trofeos (fin) -->
 
 </p>        
-<!--- stats (end) -->
+<!--- estadísticas (fin) -->
 
-
-<!--h1 without bottom border-->
+<!--h1 sin borde inferior-->
 <div id="user-content-toc">
   <ul align="center">
-    <summary><h2 style="display: inline-block">Technologies That I Know👨🏻‍💻</h2></summary>
+    <summary><h2 style="display: inline-block">Tecnologías que conozco👨🏻‍💻</h2></summary>
   </ul>
 </div>
-<!--tech stack icons-->
+<!--iconos de stack tecnológico-->
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,aws,cpp,css,discord,docker,postgres,prisma,pug,dynamodb,express,figma,firebase,redis,github,html,java,js,linux,md,materialui,nginx,mongodb,mysql,nextjs,nodejs,postman,py,react,redux,tailwind,ts,vscode,kubernetes&perline=14" />
   </a>
 </p>
 
-
-<!-- Connect with me -->
-<!--h2 without bottom border-->
+<!-- Conéctate conmigo -->
+<!--h2 sin borde inferior-->
 <div id="user-content-toc">
   <ul align="center">
-    <summary><h2 style="display: inline-block">Connect With Me🤝</h2></summary>
+    <summary><h2 style="display: inline-block">Conéctate conmigo🤝</h2></summary>
   </ul>
 </div>
 
-<!--icons and links-->
+<!--iconos y enlaces-->
 <p align="center">
 <a href="https://www.linkedin.com/in/1010nishant/" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234979284-68c11d7f-1acc-4f0c-ac78-044e1037d7b0.png" alt="linkedin" height="50" width="50" /></a>
 <a href="https://twitter.com/1010nishant" target="blank"><img align="center" src="https://user-images.githubusercontent.com/88904952/234980676-61bfb021-ecc8-48f7-88e6-34c1b06c4a58.png" alt="twitter" height="50" width="50" /></a> 
@@ -109,19 +99,17 @@
   
 </p>
 
-
-<!--profile visit count-->
+<!--contador de visitas al perfil-->
 <div align="center">
   
 [![](https://visitcount.itsvg.in/api?id=1010nishant&icon=3&color=6)](https://visitcount.itsvg.in)
   
 </div>
 
-
-<!--horizontal divider(gradiant)-->
+<!--divisor horizontal (degradado)-->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ----------------------------------------------------------------------
-Credit: [1010nishant](https://github.com/1010nishant)
+Créditos: [1010nishant](https://github.com/1010nishant)
 
-Last Edited on: 29/4/2023
+Última edición: 29/4/2023
