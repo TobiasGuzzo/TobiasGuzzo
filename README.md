@@ -106,6 +106,6 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ----------------------------------------------------------------------
-Créditos: [1010nishant](https://github.com/1010nishant)
+Créditos: [Tobias Guzzo](https:https://github.com/TobiasGuzzo/TobiasGuzzo)
 
-Última edición: 29/4/2023
+Última edición: 8/20/2024
