@@ -31,7 +31,7 @@
 
 - 📫 No dudes en contactarme en **guzzotobias@gmail.com**
 
-- 🏠 No dudes en dejarme un **👋** en Discord – [1010nishant](https://discordapp.com/users/493984084935180312) ¡mi nombre de usuario!
+- 🏠 No dudes en dejarme un **👋** en Discord – [Pitusas De Mondongo 777](https://discordapp.com/users/493984084935180312) ¡mi nombre de usuario!
 <!--Introducción fin-->
 
 <!--- estadísticas y trofeos (inicio) -->
@@ -75,7 +75,7 @@
 <!--iconos de stack tecnológico-->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,aws,cpp,css,discord,docker,postgres,prisma,pug,dynamodb,express,figma,firebase,redis,github,html,java,js,linux,md,materialui,nginx,mongodb,mysql,nextjs,nodejs,postman,py,react,redux,tailwind,ts,vscode,kubernetes&perline=14" />
+    <img src="https://skillicons.dev/icons?i=git,css,discord,github,html,java,mysql,py,react,vscode,C,C#,kubernetes&perline=14" />
   </a>
 </p>
 
