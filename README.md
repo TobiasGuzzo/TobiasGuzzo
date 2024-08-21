@@ -21,12 +21,12 @@
 </div>
 
 <!--Introducción inicio-->
-- 🔭 Actualmente estoy buscando trabajo trabajando en **
+- 🔭 Actualmente estoy buscando trabajo trabajando en programacion 
 
-- 🌱 Actualmente estoy estudiando tecnicatura superiror en Analista de Sistema en la UAI**
+- 🌱 Actualmente estoy estudiando tecnicatura superiror en Analista de Sistema en la UAI
 
-- ☁️ Tengo un gran interés en ciencias de datos y gestion en SQL*
-
+- ☁️ Tengo un gran interés en ciencias de datos y gestion en SQL
+  
 - 💬 Pregúntame sobre **Python, HTML, CSS, C, C#**
 
 - 📫 No dudes en contactarme en **guzzotobias@gmail.com**
