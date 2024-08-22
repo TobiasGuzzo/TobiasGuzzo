@@ -1,5 +1,7 @@
 <!-- Divisor horizontal (degradado) -->
-<img src="https://profile.es/wp-content/media/lenguajes-de-programacion-mas-populares-2019.jpg" alt="Lenguajes de Programación" style="width:100%; border-radius: 10px; margin-bottom: 20px;">
+<div align="center" style="margin-top: 40px;">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="Divisor horizontal" style="width:80%; border-radius: 10px;">
+</div>
 
 <!-- Título principal -->
 <div id="user-content-toc" align="center">
@@ -8,7 +10,7 @@
 
 <!-- Imagen animada -->
 <div align="center" style="margin-top: 20px;">
-  <img src="https://milugardigital.com/wp-content/uploads/2022/02/entrenamiento-en-programacion2.gif" alt="Img informatico" style="width: 80%; border-radius: 10px;" />
+  <img src="https://ximhai.com/img/programando.gif" alt="Img informatico" style="width: 80%; border-radius: 10px;" />
 </div>
 
 <!-- Subtítulo -->
