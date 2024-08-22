@@ -1,5 +1,5 @@
 <!--divisor horizontal (degradado)-->
-<img src="https://milugardigital.com/wp-content/uploads/2022/02/entrenamiento-en-programacion2.gif">
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsyltec.es%2Fblog%2F2021%2F10%2F05%2Fprogramacion-un-poco-de-historia-y-conceptos-clave%2F&psig=AOvVaw096cwsYkd1lMsNdSWycKVj&ust=1724439098482000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKiJ9bCiiYgDFQAAAAAdAAAAABAo">
 
 <!--h1 sin borde inferior-->
 <div id="user-content-toc">
@@ -10,7 +10,7 @@
 
 <!--- serpiente -->
 <div align="center">
-  <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg" alt="serpiente" />
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fximhai.com%2Fsistemas-web&psig=AOvVaw096cwsYkd1lMsNdSWycKVj&ust=1724439098482000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKiJ9bCiiYgDFQAAAAAdAAAAABAJ" alt="Img informatico" />
 </div>
 
 <!--h2 sin borde inferior-->
