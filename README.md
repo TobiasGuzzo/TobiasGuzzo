@@ -1,5 +1,5 @@
 <!--divisor horizontal (degradado)-->
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsyltec.es%2Fblog%2F2021%2F10%2F05%2Fprogramacion-un-poco-de-historia-y-conceptos-clave%2F&psig=AOvVaw096cwsYkd1lMsNdSWycKVj&ust=1724439098482000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKiJ9bCiiYgDFQAAAAAdAAAAABAo">
+<img src="https://profile.es/wp-content/media/lenguajes-de-programacion-mas-populares-2019.jpg">
 
 <!--h1 sin borde inferior-->
 <div id="user-content-toc">
