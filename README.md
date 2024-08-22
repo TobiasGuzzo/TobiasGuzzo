@@ -1,5 +1,5 @@
 <!--divisor horizontal (degradado)-->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://milugardigital.com/wp-content/uploads/2022/02/entrenamiento-en-programacion2.gif">
 
 <!--h1 sin borde inferior-->
 <div id="user-content-toc">
