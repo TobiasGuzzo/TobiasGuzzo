@@ -1,0 +1,50 @@
+#include <stdio.h>
+
+int main(int argc, char const *argv[]) {
+    printf("fecha: 20/4/2023 \n");
+    printf("Participantes del grupo: Leandro Agustin Ramos claus y Tobias Guzzo\n");
+    printf("Participantes del grupo: Leandro Agustin Ramos claus y Tobias Guzzo\n");
+    printf("Que es una variable?\n");
+    printf("Una variable es un espacio en la memoria en caul se pueden almacenar datos de forma temporal \n");
+
+
+    // Declaración de variables
+    int num_factura;
+    int num_articulo;
+    int cantidad_vendida;
+    float precio_unitario;
+    float facturacion_total = 0; 
+    float venta_articulo_1 = 0;
+    int contador ;
+    
+    // Ciclo para ingresar los 10 datos de facturación
+    for(contador=1; contador<=10; contador++) {
+        printf("Ingrese los datos de la factura:\n");
+        printf("Numero de factura: ");
+        scanf("%d", &num_factura);
+        printf("Numero de articulo (1 o 2): ");
+        scanf("%d", &num_articulo);
+        printf("Cantidad vendida: ");
+        scanf("%d", &cantidad_vendida);
+
+        // Verificar el número de artículo y calcular la facturación correspondiente
+        if(num_articulo == 1) {
+            precio_unitario = 5000;
+            venta_articulo_1 += cantidad_vendida * precio_unitario;
+        } else if(num_articulo == 2) {
+            precio_unitario = 8000;
+        } else {
+            printf("Error: numero de articulo invalido\n");
+            continue; 
+        }
+
+        facturacion_total += cantidad_vendida * precio_unitario;
+    }
+
+    // Imprimir los resultados
+    printf("Facturacion total: %.2f\n", facturacion_total);
+    printf("Monto vendido del articulo 1: %.2f\n", venta_articulo_1);
+    printf("Promedio de facturacion: %.2f\n", facturacion_total/10);
+
+    return 0;
+}
