@@ -1,0 +1,10 @@
+D:\CUBOS\Ada001\Ada001\bin\Debug\Ada001.exe.config
+D:\CUBOS\Ada001\Ada001\bin\Debug\Ada001.exe
+D:\CUBOS\Ada001\Ada001\bin\Debug\Ada001.pdb
+D:\CUBOS\Ada001\Ada001\obj\Debug\Ada001.csproj.AssemblyReference.cache
+D:\CUBOS\Ada001\Ada001\obj\Debug\Ada001.Form1.resources
+D:\CUBOS\Ada001\Ada001\obj\Debug\Ada001.Properties.Resources.resources
+D:\CUBOS\Ada001\Ada001\obj\Debug\Ada001.csproj.GenerateResource.cache
+D:\CUBOS\Ada001\Ada001\obj\Debug\Ada001.csproj.CoreCompileInputs.cache
+D:\CUBOS\Ada001\Ada001\obj\Debug\Ada001.exe
+D:\CUBOS\Ada001\Ada001\obj\Debug\Ada001.pdb

@@ -1,0 +1,14 @@
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\bin\Debug\net6.0\CLIENTE-TCP.exe
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\bin\Debug\net6.0\CLIENTE-TCP.deps.json
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\bin\Debug\net6.0\CLIENTE-TCP.runtimeconfig.json
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\bin\Debug\net6.0\CLIENTE-TCP.dll
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\bin\Debug\net6.0\CLIENTE-TCP.pdb
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\obj\Debug\net6.0\CLIENTE-TCP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\obj\Debug\net6.0\CLIENTE-TCP.AssemblyInfoInputs.cache
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\obj\Debug\net6.0\CLIENTE-TCP.AssemblyInfo.cs
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\obj\Debug\net6.0\CLIENTE-TCP.csproj.CoreCompileInputs.cache
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\obj\Debug\net6.0\CLIENTE-TCP.dll
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\obj\Debug\net6.0\refint\CLIENTE-TCP.dll
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\obj\Debug\net6.0\CLIENTE-TCP.pdb
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\obj\Debug\net6.0\CLIENTE-TCP.genruntimeconfig.cache
+C:\Users\FELIX\source\repos\CLIENTE-TCP\CLIENTE-TCP\obj\Debug\net6.0\ref\CLIENTE-TCP.dll
