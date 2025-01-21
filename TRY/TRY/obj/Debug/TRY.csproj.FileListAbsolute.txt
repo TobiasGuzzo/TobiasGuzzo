@@ -1,0 +1,10 @@
+D:\CUBOS\TRY\TRY\obj\Debug\TRY.csproj.AssemblyReference.cache
+D:\CUBOS\TRY\TRY\obj\Debug\TRY.Form1.resources
+D:\CUBOS\TRY\TRY\obj\Debug\TRY.Properties.Resources.resources
+D:\CUBOS\TRY\TRY\obj\Debug\TRY.csproj.GenerateResource.cache
+D:\CUBOS\TRY\TRY\obj\Debug\TRY.csproj.CoreCompileInputs.cache
+D:\CUBOS\TRY\TRY\bin\Debug\TRY.exe.config
+D:\CUBOS\TRY\TRY\bin\Debug\TRY.exe
+D:\CUBOS\TRY\TRY\bin\Debug\TRY.pdb
+D:\CUBOS\TRY\TRY\obj\Debug\TRY.exe
+D:\CUBOS\TRY\TRY\obj\Debug\TRY.pdb

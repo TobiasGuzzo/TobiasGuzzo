@@ -1,0 +1,10 @@
+D:\Documents\algoritmo II\reloj\reloj\bin\Debug\reloj.exe.config
+D:\Documents\algoritmo II\reloj\reloj\bin\Debug\reloj.exe
+D:\Documents\algoritmo II\reloj\reloj\bin\Debug\reloj.pdb
+D:\Documents\algoritmo II\reloj\reloj\obj\Debug\reloj.csproj.AssemblyReference.cache
+D:\Documents\algoritmo II\reloj\reloj\obj\Debug\reloj.Form1.resources
+D:\Documents\algoritmo II\reloj\reloj\obj\Debug\reloj.Properties.Resources.resources
+D:\Documents\algoritmo II\reloj\reloj\obj\Debug\reloj.csproj.GenerateResource.cache
+D:\Documents\algoritmo II\reloj\reloj\obj\Debug\reloj.csproj.CoreCompileInputs.cache
+D:\Documents\algoritmo II\reloj\reloj\obj\Debug\reloj.exe
+D:\Documents\algoritmo II\reloj\reloj\obj\Debug\reloj.pdb

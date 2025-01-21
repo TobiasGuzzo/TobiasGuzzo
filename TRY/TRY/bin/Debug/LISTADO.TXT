@@ -1,0 +1,13 @@
+ El volumen de la unidad D es DOCUMENTOS
+ El n£mero de serie del volumen es: 846F-A934
+
+ Directorio de D:\CUBOS\TRY\TRY\bin\Debug
+
+17/05/2024  21:41    <DIR>          .
+17/05/2024  21:29    <DIR>          ..
+17/05/2024  21:41                 0 LISTADO.TXT
+17/05/2024  21:38             8.704 TRY.exe
+17/05/2024  21:29               189 TRY.exe.config
+17/05/2024  21:38            30.208 TRY.pdb
+               4 archivos         39.101 bytes
+               2 dirs   9.111.302.144 bytes libres
