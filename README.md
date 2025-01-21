@@ -27,7 +27,7 @@
     <li>☁️ Apasionado por la ciencia de datos y la gestión en SQL.</li>
     <li>💬 Experto en <strong>Python, HTML, CSS, C, C#</strong>.</li>
     <li>📫 Contáctame en <strong>guzzotobias@gmail.com</strong>.</li>
-    <li>🏠 Conéctate conmigo en Discord – <a href="https://discordapp.com/users/493984084935180312" target="_blank">Pitusas De Mondongo 777</a>.</li>
+    <li>🏠 Conéctate conmigo en Discord – <a href="https://discordapp.com/users/493984084935180312" target="_blank">Tobias.gg</a>.</li>
   </ul>
 </div>
 
