@@ -1,0 +1,10 @@
+D:\CUBOS\Lava002\Lava002\bin\Debug\Lava002.exe.config
+D:\CUBOS\Lava002\Lava002\bin\Debug\Lava002.exe
+D:\CUBOS\Lava002\Lava002\bin\Debug\Lava002.pdb
+D:\CUBOS\Lava002\Lava002\obj\Debug\Lava002.csproj.AssemblyReference.cache
+D:\CUBOS\Lava002\Lava002\obj\Debug\Lava002.Form1.resources
+D:\CUBOS\Lava002\Lava002\obj\Debug\Lava002.Properties.Resources.resources
+D:\CUBOS\Lava002\Lava002\obj\Debug\Lava002.csproj.GenerateResource.cache
+D:\CUBOS\Lava002\Lava002\obj\Debug\Lava002.csproj.CoreCompileInputs.cache
+D:\CUBOS\Lava002\Lava002\obj\Debug\Lava002.exe
+D:\CUBOS\Lava002\Lava002\obj\Debug\Lava002.pdb
