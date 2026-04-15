@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultatio | Torre - Calendarios</title>
+    <link rel="stylesheet" href="./Estilos/torre.css" />
+  </head>
+  <body>
+    <div id="loadingScreen" class="loading-screen">
+      <div class="loading-card">
+        <img src="https://sl.bing.net/cl8qz6IDqRE" alt="Consultatio" class="loading-logo" />
+        <div class="spinner" aria-hidden="true"></div>
+        <p class="loading-text">Cargando panel operativo...</p>
+      </div>
+    </div>
+
+    <header class="topbar">
+      <div class="topbar-inner">
+        <p class="brand-eyebrow">Consultatio S.A.</p>
+        <h1>Panel Operativo de Salas - Torre</h1>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="header">
+        <div>
+          <h2>Agenda corporativa de salas</h2>
+          <p class="info">Visualización en tiempo real de las salas de reuniones de Torre.</p>
+          <p class="compact"><a class="back-menu-btn" href="./index.html">Volver al menú</a></p>
+        </div>
+        <div class="actions">
+          <button id="refreshBtn" type="button" class="refresh-btn">Actualizar panel</button>
+          <div class="date-time-widget">
+            <span class="date-time-label">Hora actual</span>
+            <span id="dateTimeNow" class="date-time-now" aria-live="polite"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h3>Sala 1</h3>
+          <iframe id="cal1" title="Calendario Sala 1 - Torre" loading="lazy" src="https://outlook.office365.com/owa/calendar/a3f244d0a5b94373a3d60b4ba217e222@consultatio.com.ar/958a6663129f4e2692183172a07448fa992724958934357400/calendar.html"></iframe>
+        </article>
+        <article class="card">
+          <h3>Sala 2</h3>
+          <iframe id="cal2" title="Calendario Sala 2 - Torre" loading="lazy" src="https://outlook.office365.com/owa/calendar/924125d9e12c4f2d82c8eafa0e0117b0@consultatio.com.ar/23fb0af5b4ea4bb0b90489db3ebd6f2e6877837089022061222/calendar.html"></iframe>
+        </article>
+        <article class="card">
+          <h3>Sala 3</h3>
+          <iframe id="cal3" title="Calendario Sala 3 - Torre" loading="lazy" src="https://outlook.office365.com/owa/calendar/99d551ac580b46aba5c6532338654c09@consultatio.com.ar/5533fd3156bc4e4ab63c529cc08d96ed17549456320228446207/calendar.html"></iframe>
+        </article>
+      </section>
+
+      <p class="footer">Actualización automática cada 120 segundos. Diseño optimizado para visualización en pantalla grande.</p>
+    </main>
+
+    <script>
+      function hideLoadingScreen() {
+        const loadingScreen = document.getElementById("loadingScreen");
+        if (!loadingScreen) return;
+        loadingScreen.classList.add("hidden");
+        setTimeout(() => loadingScreen.remove(), 500);
+      }
+
+      function updateDateTimeNow() {
+        const dateTimeLabel = document.getElementById("dateTimeNow");
+        if (!dateTimeLabel) return;
+
+        const now = new Date();
+        const dayName = now.toLocaleDateString("es-AR", { weekday: "long" });
+        const dateValue = now.toLocaleDateString("es-AR", {
+          day: "2-digit",
+          month: "2-digit",
+          year: "numeric",
+        });
+        const timeValue = now.toLocaleTimeString("es-AR");
+        dateTimeLabel.textContent = `${dayName} ${dateValue} - ${timeValue}`;
+      }
+
+      function refreshBoard() {
+        const ids = ["cal1", "cal2", "cal3"];
+        const now = Date.now();
+        for (const id of ids) {
+          const iframe = document.getElementById(id);
+          if (!iframe || !iframe.src) continue;
+          const url = new URL(iframe.src);
+          url.searchParams.set("_ts", String(now));
+          iframe.src = url.toString();
+        }
+      }
+
+      const refreshBtn = document.getElementById("refreshBtn");
+      if (refreshBtn) {
+        refreshBtn.addEventListener("click", refreshBoard);
+      }
+
+      updateDateTimeNow();
+      setInterval(updateDateTimeNow, 1000);
+      refreshBoard();
+      setInterval(refreshBoard, 120000);
+      window.addEventListener("load", hideLoadingScreen);
+      setTimeout(hideLoadingScreen, 3500);
+    </script>
+  </body>
+</html>
