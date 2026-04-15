@@ -9,7 +9,7 @@
   <body>
     <div id="loadingScreen" class="loading-screen">
       <div class="loading-card">
-        <img src="https://sl.bing.net/cl8qz6IDqRE" alt="Consultatio" class="loading-logo" />
+        <img src="../IMG/consultatio%20logo.png" alt="Consultatio" class="loading-logo" />
         <div class="spinner" aria-hidden="true"></div>
         <p class="loading-text">Cargando panel operativo...</p>
       </div>
@@ -56,6 +56,13 @@
       <p class="footer">Actualización automática cada 120 segundos. Diseño optimizado para visualización en pantalla grande.</p>
     </main>
 
+    <div id="agendaModal" class="agenda-modal" aria-hidden="true">
+      <div class="agenda-modal-dialog" role="dialog" aria-modal="true" aria-label="Agenda en pantalla completa">
+        <button id="closeAgendaModalBtn" type="button" class="close-modal-btn">Cerrar</button>
+        <iframe id="agendaModalFrame" title="Agenda en pantalla completa" loading="lazy"></iframe>
+      </div>
+    </div>
+
     <script>
       function hideLoadingScreen() {
         const loadingScreen = document.getElementById("loadingScreen");
@@ -91,17 +98,64 @@
         }
       }
 
+      const agendaModal = document.getElementById("agendaModal");
+      const agendaModalFrame = document.getElementById("agendaModalFrame");
+      const closeAgendaModalBtn = document.getElementById("closeAgendaModalBtn");
+      const agendaIframes = document.querySelectorAll(".card iframe");
+
+      function openAgendaModal(src) {
+        if (!agendaModal || !agendaModalFrame || !src) return;
+        agendaModalFrame.src = src;
+        agendaModal.classList.add("open");
+        agendaModal.setAttribute("aria-hidden", "false");
+        document.body.classList.add("modal-open");
+      }
+
+      function closeAgendaModal() {
+        if (!agendaModal || !agendaModalFrame) return;
+        agendaModal.classList.remove("open");
+        agendaModal.setAttribute("aria-hidden", "true");
+        agendaModalFrame.src = "";
+        document.body.classList.remove("modal-open");
+      }
+
       const refreshBtn = document.getElementById("refreshBtn");
       if (refreshBtn) {
         refreshBtn.addEventListener("click", refreshBoard);
       }
+
+      if (closeAgendaModalBtn) {
+        closeAgendaModalBtn.addEventListener("click", closeAgendaModal);
+      }
+
+      if (agendaModal) {
+        agendaModal.addEventListener("click", (event) => {
+          if (event.target === agendaModal) closeAgendaModal();
+        });
+      }
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") closeAgendaModal();
+      });
+
+      agendaIframes.forEach((iframe) => {
+        iframe.addEventListener("click", () => openAgendaModal(iframe.src));
+      });
+
+      document.querySelectorAll(".card h3").forEach((title) => {
+        title.addEventListener("click", () => {
+          const card = title.closest(".card");
+          const iframe = card ? card.querySelector("iframe") : null;
+          if (iframe) openAgendaModal(iframe.src);
+        });
+      });
 
       updateDateTimeNow();
       setInterval(updateDateTimeNow, 1000);
       refreshBoard();
       setInterval(refreshBoard, 120000);
       window.addEventListener("load", hideLoadingScreen);
-      setTimeout(hideLoadingScreen, 3500);
+      setTimeout(hideLoadingScreen, 4000);
     </script>
   </body>
 </html>
