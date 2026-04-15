@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultatio | Seleccion de Calendario</title>
+    <link rel="stylesheet" href="./Estilos/index.css" />
+  </head>
+  <body>
+    <div id="loadingScreen" class="loading-screen">
+      <div class="loading-card">
+        <img src="https://sl.bing.net/cl8qz6IDqRE" alt="Consultatio" class="loading-logo" />
+        <div class="spinner" aria-hidden="true"></div>
+        <p class="loading-text">Cargando menú de calendarios...</p>
+      </div>
+    </div>
+
+    <header class="topbar">
+      <div class="topbar-inner">
+        <p class="brand-eyebrow">Consultatio S.A.</p>
+        <h1>Panel Operativo de Salas</h1>
+      </div>
+    </header>
+
+    <main class="container menu-container">
+      <section class="menu-card">
+        <div>
+          <h2>Selecciona una sede</h2>
+          <p class="info">
+            Elegí qué calendario querés visualizar para consultar la disponibilidad de salas en tiempo real.
+          </p>
+        </div>
+
+        <div class="menu-actions">
+          <a class="menu-btn" href="./puertos.html">
+            <span class="menu-btn-title">Puertos</span>
+            <span class="menu-btn-desc">Ver calendario operativo de salas</span>
+          </a>
+          <a class="menu-btn secondary" href="./torre.html">
+            <span class="menu-btn-title">Torre</span>
+            <span class="menu-btn-desc">Ver calendario operativo de salas</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      function hideLoadingScreen() {
+        const loadingScreen = document.getElementById("loadingScreen");
+        if (!loadingScreen) return;
+        loadingScreen.classList.add("hidden");
+        setTimeout(() => loadingScreen.remove(), 500);
+      }
+
+      window.addEventListener("load", hideLoadingScreen);
+      setTimeout(hideLoadingScreen, 3500);
+    </script>
+  </body>
+</html>
