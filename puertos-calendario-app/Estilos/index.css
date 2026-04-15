@@ -56,7 +56,7 @@ body {
   width: min(100%, 390px);
   max-height: 190px;
   object-fit: contain;
-  border-radius: 12px;
+  border-radius: 22px;
 }
 
 .spinner {
