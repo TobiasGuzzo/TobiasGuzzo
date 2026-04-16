@@ -1,0 +1,871 @@
+/* === Variables por sede === */
+body.sede-index {
+  --bg: #dfe6ef;
+  --surface: rgba(255, 255, 255, 0.96);
+  --text: #132438;
+  --muted: #516377;
+  --brand-strong: #0a1f38;
+  --line: #cfdae8;
+  --shadow: 0 18px 44px rgba(11, 26, 44, 0.28);
+  --bg-image: linear-gradient(rgba(9, 22, 40, 0.52), rgba(9, 22, 40, 0.52)), url("https://i.pinimg.com/originals/9d/36/9a/9d369ab2ada246bfb8451cc4f6a81717.jpg");
+  --topbar-bg: linear-gradient(108deg, rgba(8, 23, 41, 0.95) 0%, rgba(18, 52, 91, 0.94) 68%, rgba(28, 71, 120, 0.92) 100%);
+  --topbar-border-bottom: 4px solid #c1a46d;
+  --topbar-backdrop: none;
+  --topbar-inner-max-width: 1100px;
+  --container-max-width: 1100px;
+  --card-header-bg: var(--surface);
+  --card-hover-shadow: 0 26px 56px rgba(11, 26, 44, 0.38);
+  --close-modal-btn-start: #1a4477;
+  --close-modal-btn-end: #295d9b;
+  --date-time-widget-bg: linear-gradient(130deg, rgba(10, 28, 48, 0.55), rgba(23, 56, 92, 0.55));
+}
+
+body.sede-puertos {
+  --bg: #dfe6ef;
+  --surface: rgba(255, 255, 255, 0.96);
+  --text: #132438;
+  --muted: #516377;
+  --brand-strong: #0a1f38;
+  --line: #cfdae8;
+  --shadow: 0 18px 44px rgba(11, 26, 44, 0.28);
+  --bg-image: linear-gradient(rgba(9, 22, 40, 0.56), rgba(9, 22, 40, 0.56)), url("https://static1.sosiva451.com/5553366/75d20690-4814-4e96-b61d-0ffa4fe2d958_u_large.jpg");
+  --topbar-bg: linear-gradient(108deg, rgba(8, 23, 41, 0.95) 0%, rgba(18, 52, 91, 0.94) 68%, rgba(28, 71, 120, 0.92) 100%);
+  --topbar-border-bottom: 4px solid #c1a46d;
+  --topbar-backdrop: blur(3px);
+  --topbar-inner-max-width: 1440px;
+  --container-max-width: 1440px;
+  --card-header-bg: #f4f7fc;
+  --card-hover-shadow: 0 26px 56px rgba(11, 26, 44, 0.38);
+  --close-modal-btn-start: #1a4477;
+  --close-modal-btn-end: #295d9b;
+  --date-time-widget-bg: linear-gradient(130deg, rgba(10, 28, 48, 0.55), rgba(23, 56, 92, 0.55));
+}
+
+body.sede-torre {
+  --bg: #e8ecf5;
+  --surface: rgba(255, 255, 255, 0.95);
+  --text: #122334;
+  --muted: #4b6076;
+  --brand-strong: #102943;
+  --line: #d5deea;
+  --shadow: 0 18px 44px rgba(11, 26, 44, 0.22);
+  --bg-image: linear-gradient(rgba(17, 31, 52, 0.45), rgba(17, 31, 52, 0.45)), url("https://mendiorozdesign.com/images/portfolio/bbva/c_01.jpg");
+  --topbar-bg: linear-gradient(108deg, rgba(14, 29, 49, 0.96) 0%, rgba(29, 61, 96, 0.94) 70%, rgba(44, 90, 138, 0.92) 100%);
+  --topbar-border-bottom: 4px solid #9eb5cf;
+  --topbar-backdrop: blur(3px);
+  --topbar-inner-max-width: 1100px;
+  --container-max-width: 1440px;
+  --card-header-bg: #eef3fb;
+  --card-hover-shadow: 0 26px 56px rgba(11, 26, 44, 0.36);
+  --close-modal-btn-start: #245187;
+  --close-modal-btn-end: #2f6bab;
+  --date-time-widget-bg: linear-gradient(130deg, rgba(10, 28, 48, 0.55), rgba(23, 56, 92, 0.55));
+}
+
+body.sede-nordelta {
+  --bg: #f5f3ee;
+  --surface: rgba(255, 255, 255, 0.97);
+  --text: #2c2418;
+  --muted: #6b5d4d;
+  --brand-strong: #1a1410;
+  --line: #e0ddd5;
+  --shadow: 0 18px 44px rgba(44, 36, 28, 0.15);
+  --bg-image: linear-gradient(rgba(62, 48, 36, 0.35), rgba(62, 48, 36, 0.35)), url("https://www.officia.com.ar/images/nordelta/Officia-Nordelta-foto4.jpg");
+  --topbar-bg: linear-gradient(108deg, rgba(62, 48, 36, 0.95) 0%, rgba(94, 74, 54, 0.94) 68%, rgba(126, 100, 72, 0.92) 100%);
+  --topbar-border-bottom: 4px solid #c9b896;
+  --topbar-backdrop: blur(4px);
+  --topbar-inner-max-width: 1280px;
+  --container-max-width: 1280px;
+  --card-header-bg: #f7f4ef;
+  --card-hover-shadow: 0 26px 56px rgba(44, 36, 28, 0.22);
+  --close-modal-btn-start: #8b735b;
+  --close-modal-btn-end: #a68b6b;
+  --date-time-widget-bg: linear-gradient(130deg, rgba(62, 48, 36, 0.65), rgba(94, 74, 54, 0.65));
+}
+
+/* === Reset & base === */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.45;
+  background-color: var(--bg);
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+/* === Focus visible para accesibilidad === */
+:focus-visible {
+  outline: 3px solid rgba(255, 215, 0, 0.6);
+  outline-offset: 2px;
+}
+
+/* === Loading screen === */
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(140deg, rgba(6, 18, 32, 0.96), rgba(11, 31, 54, 0.9));
+  z-index: 9999;
+  transition: opacity 0.45s ease, visibility 0.45s ease;
+}
+
+/* Nordelta: loading screen con imagen de fondo propia */
+body.sede-nordelta #loadingScreen {
+  background: linear-gradient(140deg, rgba(62, 48, 36, 0.92), rgba(94, 74, 54, 0.88)), url("https://www.officia.com.ar/images/nordelta/Officia-Nordelta-foto4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.loading-screen.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loading-card {
+  width: min(480px, 92vw);
+  padding: 22px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  backdrop-filter: blur(6px);
+  animation: loaderPulse 1.4s ease-in-out infinite;
+}
+
+@keyframes loaderPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.015); }
+}
+
+.loading-logo {
+  width: min(100%, 390px);
+  max-height: 190px;
+  object-fit: contain;
+  border-radius: 22px;
+}
+
+.spinner {
+  width: 42px;
+  height: 42px;
+  margin: 16px auto 10px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.26);
+  border-top-color: #ffffff;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading-text {
+  margin: 0;
+  color: #e7f0ff;
+  font-weight: 600;
+}
+
+/* === Topbar === */
+.topbar {
+  background: var(--topbar-bg);
+  color: #ffffff;
+  border-bottom: var(--topbar-border-bottom);
+  backdrop-filter: var(--topbar-backdrop);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.topbar-inner {
+  max-width: var(--topbar-inner-max-width);
+  margin: 0 auto;
+  padding: 24px 22px 20px;
+}
+
+.brand-eyebrow {
+  margin: 0 0 6px;
+  font-size: 0.8rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.92;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-size: 1.86rem;
+  font-weight: 700;
+}
+
+/* Sede Puertos y Nordelta: letter-spacing en h1 */
+body.sede-puertos .topbar h1,
+body.sede-nordelta .topbar h1 {
+  letter-spacing: 0.015em;
+}
+
+/* === Container === */
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 24px 22px 28px;
+}
+
+/* === Header section (Puertos/Torre/Nordelta) === */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 20px;
+  padding: 18px 20px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  animation: slideDown 0.5s ease-out both;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(7, 17, 30, 0.45);
+}
+
+.info {
+  margin: 8px 0 0;
+  color: #d9e4f3;
+  font-size: 0.96rem;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+.compact {
+  margin-top: 6px;
+  font-size: 0.9rem;
+}
+
+/* === Botón volver al menú === */
+.back-menu-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(130deg, rgba(255, 255, 255, 0.2) 0%, rgba(215, 228, 246, 0.24) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  box-shadow: 0 8px 18px rgba(7, 19, 34, 0.28);
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.back-menu-btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.15) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.22s ease;
+}
+
+.back-menu-btn:hover::after {
+  opacity: 1;
+}
+
+.back-menu-btn::before {
+  content: '←';
+  display: inline-block;
+  margin-right: 2px;
+  transition: transform 0.25s ease;
+}
+
+.back-menu-btn:hover::before {
+  transform: translateX(-3px);
+}
+
+.back-menu-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+  background: linear-gradient(130deg, rgba(255, 255, 255, 0.28) 0%, rgba(225, 237, 252, 0.32) 100%);
+  box-shadow: 0 10px 22px rgba(7, 19, 34, 0.35);
+}
+
+.back-menu-btn:active {
+  transform: translateY(0) scale(0.97);
+}
+
+/* === Actions === */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* === Widget fecha/hora === */
+.date-time-widget {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 14px 10px 32px;
+  min-width: 280px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: var(--date-time-widget-bg);
+  box-shadow: 0 8px 20px rgba(8, 18, 30, 0.3);
+  position: relative;
+}
+
+/* Icono de reloj */
+.date-time-widget::after {
+  content: '🕒';
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Puntito de estado (en vivo) */
+.date-time-widget::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 10px;
+  height: 10px;
+  background: #4caf50;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #4caf50;
+  animation: pulseDot 2s infinite;
+}
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.2); }
+}
+
+.date-time-label {
+  color: #c6daff;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.date-time-now {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  min-width: 0;
+  text-align: left;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.5px;
+}
+
+/* === Grid & Cards === */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+/* Específico para Nordelta: centrar grid de 2 columnas */
+body.sede-nordelta .grid {
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  max-width: 900px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(2px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  animation: cardFadeIn 0.6s ease-out both;
+}
+
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animación escalonada */
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.2s; }
+.card:nth-child(3) { animation-delay: 0.3s; }
+.card:nth-child(4) { animation-delay: 0.4s; }
+.card:nth-child(5) { animation-delay: 0.5s; }
+.card:nth-child(6) { animation-delay: 0.6s; }
+
+/* Shine effect en hover */
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+  transition: left 0.6s;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.card:hover::before {
+  left: 150%;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 70px rgba(11, 26, 44, 0.42);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.card:active {
+  transform: translateY(-4px) scale(0.99);
+}
+
+.card h3 {
+  margin: 0;
+  padding: 13px 16px;
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--brand-strong);
+  background: var(--card-header-bg);
+  border-bottom: 1px solid var(--line);
+  transition: background 0.25s ease;
+  cursor: pointer;
+}
+
+.card:hover .card h3 {
+  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+.grid iframe {
+  width: 100%;
+  height: 85vh;
+  max-height: 900px;
+  border: 0;
+  background: #fff;
+  cursor: zoom-in;
+  transition: opacity 0.25s ease;
+}
+
+.card:hover .grid iframe {
+  opacity: 0.98;
+}
+
+/* === Icono agrandar con tooltip === */
+.card-hint {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0.5;
+  pointer-events: auto;
+  cursor: pointer;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+  transition: all 0.25s ease;
+  z-index: 5;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.card:hover .card-hint {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+.card-hint img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.card-hint::after {
+  content: 'Ampliar';
+  position: absolute;
+  bottom: calc(100% + 8px);
+  right: 0;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(5px);
+  transition: all 0.2s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.card:hover .card-hint::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ocultar icono en cards placeholder */
+.placeholder-card .card-hint {
+  display: none;
+}
+
+/* === Placeholder cards (Nordelta) === */
+.placeholder-card iframe {
+  display: none;
+}
+
+.placeholder-card .placeholder-content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%);
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 1rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.placeholder-card .placeholder-content::before {
+  content: '🏢';
+  display: block;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+/* === Footer === */
+.footer {
+  margin-top: 20px;
+  color: #dde8f7;
+  font-size: 0.92rem;
+  text-shadow: 0 2px 8px rgba(9, 20, 35, 0.35);
+  text-align: center;
+  padding: 12px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+}
+
+body.sede-nordelta .footer {
+  color: #c9b896;
+  border-top-color: rgba(201, 184, 150, 0.25);
+  background: rgba(62, 48, 36, 0.12);
+}
+
+/* === Modal === */
+.agenda-modal {
+  position: fixed;
+  inset: 0;
+  padding: 18px;
+  background: rgba(6, 12, 22, 0.78);
+  backdrop-filter: blur(2px);
+  z-index: 9998;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; backdrop-filter: blur(4px); }
+  to { opacity: 1; backdrop-filter: blur(2px); }
+}
+
+.agenda-modal.open {
+  display: flex;
+}
+
+.agenda-modal-dialog {
+  width: min(96vw, 1700px);
+  height: min(94vh, 980px);
+  background: #0f1f33;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 14px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  box-shadow: 0 26px 60px rgba(0, 0, 0, 0.5);
+  transform: scale(0.95);
+  opacity: 0;
+  transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.agenda-modal.open .agenda-modal-dialog {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.close-modal-btn {
+  justify-self: end;
+  margin: 10px;
+  border: 0;
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background: linear-gradient(130deg, var(--close-modal-btn-start) 0%, var(--close-modal-btn-end) 100%);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.close-modal-btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.08);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.close-modal-btn:active {
+  transform: translateY(0) scale(0.96);
+}
+
+.agenda-modal-dialog iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #fff;
+}
+
+/* === Estilos específicos de Index (menú) === */
+.menu-container {
+  min-height: calc(100vh - 130px);
+  display: grid;
+  place-items: center;
+}
+
+.menu-card {
+  width: min(720px, 100%);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: var(--shadow);
+  animation: menuCardFadeIn 0.7s ease-out both;
+}
+
+@keyframes menuCardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.menu-card h2 {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--brand-strong);
+}
+
+.menu-card .info {
+  margin-top: 10px;
+  color: var(--muted);
+}
+
+.menu-actions {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Botones del menú principal */
+.menu-btn {
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 16px 18px;
+  background: linear-gradient(130deg, #1a4477 0%, #295d9b 100%);
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 10px 20px rgba(11, 29, 50, 0.28);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid transparent;
+}
+
+.menu-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.menu-btn:hover::before {
+  left: 100%;
+}
+
+.menu-btn:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.08);
+  box-shadow: 0 14px 28px rgba(11, 29, 50, 0.38);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-btn:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 6px 12px rgba(11, 29, 50, 0.28);
+}
+
+.menu-btn-title {
+  font-size: 1.08rem;
+  letter-spacing: 0.015em;
+}
+
+.menu-btn-desc {
+  font-size: 0.84rem;
+  font-weight: 500;
+  opacity: 0.9;
+  transition: opacity 0.25s ease;
+}
+
+.menu-btn:hover .menu-btn-desc {
+  opacity: 1;
+}
+
+.menu-btn.secondary {
+  background: linear-gradient(130deg, #476079 0%, #5f7993 100%);
+}
+
+.menu-btn.accent {
+  background: linear-gradient(130deg, #8b735b 0%, #a68b6b 100%);
+}
+
+/* === Media queries === */
+@media (max-width: 1250px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+  }
+}
+
+@media (max-width: 860px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 16px;
+  }
+
+  .actions {
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .date-time-widget {
+    min-width: 0;
+    width: 100%;
+    padding: 10px 12px 10px 28px;
+  }
+
+  .grid iframe {
+    height: 65vh;
+    max-height: none;
+  }
+
+  .menu-card {
+    padding: 22px;
+  }
+
+  .topbar-inner {
+    padding: 20px 18px 16px;
+  }
+
+  .topbar h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* === Reduced motion === */
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .menu-card,
+  .menu-btn,
+  .back-menu-btn,
+  .agenda-modal-dialog,
+  .close-modal-btn,
+  .card-hint,
+  .date-time-widget::before {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .card {
+    transform: none !important;
+  }
+
+  .card:hover {
+    transform: none !important;
+  }
+}

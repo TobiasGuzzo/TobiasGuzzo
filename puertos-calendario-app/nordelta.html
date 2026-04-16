@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Consultatio | Alem 815 - Calendarios</title>
+    <title>Nordelta | Calendarios</title>
     <link rel="stylesheet" href="./Estilos/main.css" />
   </head>
-  <body class="sede-torre">
+  <body class="sede-nordelta">
     <div id="loadingScreen" class="loading-screen">
       <div class="loading-card">
-        <img src="../IMG/consultatio%20logo.png" alt="Consultatio" class="loading-logo" />
+        <img src="../IMG/nordelta-logo.svg" alt="Nordelta S.A." class="loading-logo" />
         <div class="spinner" aria-hidden="true"></div>
         <p class="loading-text">Cargando panel operativo...</p>
       </div>
@@ -17,8 +17,8 @@
 
     <header class="topbar">
       <div class="topbar-inner">
-        <p class="brand-eyebrow">Consultatio S.A.</p>
-        <h1>Panel Operativo de Salas - Alem 815</h1>
+        <p class="brand-eyebrow">Nordelta S.A.</p>
+        <h1>Panel Operativo de Salas - Nordelta</h1>
       </div>
     </header>
 
@@ -26,7 +26,7 @@
       <section class="header">
         <div>
           <h2>Agenda corporativa de salas</h2>
-          <p class="info">Visualización en tiempo real de las salas de reuniones de Alem 815.</p>
+          <p class="info">Visualización en tiempo real de las salas de reuniones de Nordelta.</p>
           <p class="compact"><a class="back-menu-btn" href="./index.html">Volver al menú</a></p>
         </div>
         <div class="actions">
@@ -37,27 +37,26 @@
         </div>
       </section>
 
-      <section class="grid">
-        <article class="card">
+      <section class="grid" id="nordeltaGrid">
+        <article class="card placeholder-card">
           <h3>Sala 1</h3>
           <div class="card-hint">
             <img src="../IMG/Agrandar.png" alt="Haz clic para ampliar" width="24" height="24" />
           </div>
-          <iframe id="cal1" title="Calendario Sala 1 - Alem 815" loading="lazy" src="https://outlook.office365.com/owa/calendar/a3f244d0a5b94373a3d60b4ba217e222@consultatio.com.ar/958a6663129f4e2692183172a07448fa992724958934357400/calendar.html"></iframe>
+          <!-- iframe se agregará cuando se tengan las URLs -->
+          <div class="placeholder-content">
+            Calendario pendiente de configuración
+          </div>
         </article>
-        <article class="card">
+        <article class="card placeholder-card">
           <h3>Sala 2</h3>
           <div class="card-hint">
             <img src="../IMG/Agrandar.png" alt="Haz clic para ampliar" width="24" height="24" />
           </div>
-          <iframe id="cal2" title="Calendario Sala 2 - Alem 815" loading="lazy" src="https://outlook.office365.com/owa/calendar/924125d9e12c4f2d82c8eafa0e0117b0@consultatio.com.ar/23fb0af5b4ea4bb0b90489db3ebd6f2e6877837089022061222/calendar.html"></iframe>
-        </article>
-        <article class="card">
-          <h3>Sala 3</h3>
-          <div class="card-hint">
-            <img src="../IMG/Agrandar.png" alt="Haz clic para ampliar" width="24" height="24" />
+          <!-- iframe se agregará cuando se tengan las URLs -->
+          <div class="placeholder-content">
+            Calendario pendiente de configuración
           </div>
-          <iframe id="cal3" title="Calendario Sala 3 - Alem 815" loading="lazy" src="https://outlook.office365.com/owa/calendar/99d551ac580b46aba5c6532338654c09@consultatio.com.ar/5533fd3156bc4e4ab63c529cc08d96ed17549456320228446207/calendar.html"></iframe>
         </article>
       </section>
 

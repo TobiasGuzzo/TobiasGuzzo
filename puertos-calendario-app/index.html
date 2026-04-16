@@ -4,56 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Consultatio | Seleccion de Calendario</title>
-    <link rel="stylesheet" href="./Estilos/index.css" />
+     <link rel="stylesheet" href="./Estilos/main.css" />
   </head>
-  <body>
-    <div id="loadingScreen" class="loading-screen">
-      <div class="loading-card">
-        <img src="../IMG/consultatio%20logo.png" alt="Consultatio" class="loading-logo" />
-        <div class="spinner" aria-hidden="true"></div>
-        <p class="loading-text">Cargando menú de calendarios...</p>
-      </div>
-    </div>
+   <body class="sede-index">
+     <div id="loadingScreen" class="loading-screen">
+       <div class="loading-card">
+         <img src="../IMG/consultatio%20logo.png" alt="Consultatio" class="loading-logo" />
+         <div class="spinner" aria-hidden="true"></div>
+         <p class="loading-text">Cargando menú de calendarios...</p>
+       </div>
+     </div>
 
-    <header class="topbar">
-      <div class="topbar-inner">
-        <p class="brand-eyebrow">Consultatio S.A.</p>
-        <h1>Panel Operativo de Salas</h1>
-      </div>
-    </header>
-
-    <main class="container menu-container">
-      <section class="menu-card">
-        <div>
-          <h2>Selecciona una sede</h2>
-          <p class="info">
-            Elegí qué calendario querés visualizar para consultar la disponibilidad de salas en tiempo real.
-          </p>
+      <header class="topbar">
+        <div class="topbar-inner">
+          <p class="brand-eyebrow">Consultatio S.A. | Nordelta S.A.</p>
+          <h1>Panel Operativo de Salas</h1>
         </div>
+      </header>
 
-        <div class="menu-actions">
-          <a class="menu-btn" href="./puertos.html">
-            <span class="menu-btn-title">Puertos</span>
-            <span class="menu-btn-desc">Ver calendario operativo de salas</span>
-          </a>
-          <a class="menu-btn secondary" href="./torre.html">
-            <span class="menu-btn-title">Torre</span>
-            <span class="menu-btn-desc">Ver calendario operativo de salas</span>
-          </a>
-        </div>
-      </section>
-    </main>
+     <main class="container menu-container">
+        <section class="menu-card">
+          <div>
+            <h2>Selecciona una sede</h2>
+            <p class="info">
+              Elegí qué calendario querés visualizar para consultar la disponibilidad de salas en tiempo real.
+            </p>
+          </div>
 
-    <script>
-      function hideLoadingScreen() {
-        const loadingScreen = document.getElementById("loadingScreen");
-        if (!loadingScreen) return;
-        loadingScreen.classList.add("hidden");
-        setTimeout(() => loadingScreen.remove(), 500);
-      }
+          <div class="menu-actions">
+            <a class="menu-btn" href="./torre.html">
+              <span class="menu-btn-title">Alem 815</span>
+              <span class="menu-btn-desc">Ver calendario operativo de salas</span>
+            </a>
+            <a class="menu-btn secondary" href="./puertos.html">
+              <span class="menu-btn-title">Puertos</span>
+              <span class="menu-btn-desc">Ver calendario operativo de salas</span>
+            </a>
+            <a class="menu-btn accent" href="./nordelta.html">
+              <span class="menu-btn-title">Nordelta S.A.</span>
+              <span class="menu-btn-desc">Ver calendario operativo de salas</span>
+            </a>
+          </div>
+        </section>
+     </main>
 
-      window.addEventListener("load", hideLoadingScreen);
-      setTimeout(hideLoadingScreen, 4000);
-    </script>
-  </body>
+     <script src="./Scripts/index.js"></script>
+   </body>
 </html>
