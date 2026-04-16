@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Consultatio | Puertos - Calendarios</title>
-    <link rel="stylesheet" href="./Estilos/puertos.css" />
+     <link rel="stylesheet" href="./Estilos/main.css" />
   </head>
-  <body>
+   <body class="sede-puertos">
     <div id="loadingScreen" class="loading-screen">
       <div class="loading-card">
         <img src="../IMG/consultatio%20logo.png" alt="Consultatio" class="loading-logo" />
@@ -23,139 +23,55 @@
     </header>
 
     <main class="container">
-      <section class="header">
-        <div>
-          <h2>Agenda corporativa de salas</h2>
-          <p class="info">Visualización en tiempo real de las salas de reuniones de Puertos.</p>
-          <p class="compact"><a class="back-menu-btn" href="./index.html">Volver al menú</a></p>
-        </div>
-        <div class="actions">
-          <button id="refreshBtn" type="button" class="refresh-btn">Actualizar panel</button>
-          <div class="date-time-widget">
-            <span class="date-time-label">Hora actual</span>
-            <span id="dateTimeNow" class="date-time-now" aria-live="polite"></span>
-          </div>
-        </div>
-      </section>
+       <section class="header">
+         <div>
+           <h2>Agenda corporativa de salas</h2>
+           <p class="info">Visualización en tiempo real de las salas de reuniones de Puertos.</p>
+           <p class="compact"><a class="back-menu-btn" href="./index.html">Volver al menú</a></p>
+         </div>
+         <div class="actions">
+           <div class="date-time-widget">
+             <span class="date-time-label">Hora actual</span>
+             <span id="dateTimeNow" class="date-time-now" aria-live="polite"></span>
+           </div>
+         </div>
+       </section>
 
-      <section class="grid">
-        <article class="card">
-          <h3>Sala 1</h3>
-          <iframe id="cal1" title="Calendario Sala 1 - Puertos" loading="lazy" src="https://outlook.office365.com/owa/calendar/f64b12685c4e44a982f12cd7a5e3b2f2@consultatio.com.ar/8def32fb918148098dbd6a1ccb1535114759274250697104421/calendar.html"></iframe>
-        </article>
-        <article class="card">
-          <h3>Sala 2</h3>
-          <iframe id="cal2" title="Calendario Sala 2 - Puertos" loading="lazy" src="https://outlook.office365.com/owa/calendar/fce68511a6724907bded68bb4e002658@consultatio.com.ar/24e2341dda98477badb997f05bb1b70a1390136623649421139/calendar.html"></iframe>
-        </article>
-        <article class="card">
-          <h3>Sala 3</h3>
-          <iframe id="cal3" title="Calendario Sala 3 - Puertos" loading="lazy" src="https://outlook.office365.com/owa/calendar/5d7fc30c85074a26ad11adbd93e7f1ab@consultatio.com.ar/e8995edf5ed04b908426b504b404da2d8726586180796862116/calendar.html"></iframe>
-        </article>
-      </section>
+       <section class="grid">
+         <article class="card">
+           <h3>Sala 1</h3>
+           <div class="card-hint">
+             <img src="../IMG/Agrandar.png" alt="Haz clic para ampliar" width="24" height="24" />
+           </div>
+           <iframe id="cal1" title="Calendario Sala 1 - Puertos" loading="lazy" src="https://outlook.office365.com/owa/calendar/f64b12685c4e44a982f12cd7a5e3b2f2@consultatio.com.ar/8def32fb918148098dbd6a1ccb1535114759274250697104421/calendar.html"></iframe>
+         </article>
+         <article class="card">
+           <h3>Sala 2</h3>
+           <div class="card-hint">
+             <img src="../IMG/Agrandar.png" alt="Haz clic para ampliar" width="24" height="24" />
+           </div>
+           <iframe id="cal2" title="Calendario Sala 2 - Puertos" loading="lazy" src="https://outlook.office365.com/owa/calendar/fce68511a6724907bded68bb4e002658@consultatio.com.ar/24e2341dda98477badb997f05bb1b70a1390136623649421139/calendar.html"></iframe>
+         </article>
+         <article class="card">
+           <h3>Sala 3</h3>
+           <div class="card-hint">
+             <img src="../IMG/Agrandar.png" alt="Haz clic para ampliar" width="24" height="24" />
+           </div>
+           <iframe id="cal3" title="Calendario Sala 3 - Puertos" loading="lazy" src="https://outlook.office365.com/owa/calendar/5d7fc30c85074a26ad11adbd93e7f1ab@consultatio.com.ar/e8995edf5ed04b908426b504b404da2d8726586180796862116/calendar.html"></iframe>
+         </article>
+       </section>
 
-      <p class="footer">Actualización automática cada 120 segundos. Diseño optimizado para visualización en pantalla grande.</p>
-    </main>
+       <p class="footer">Actualización automática cada 5 minutos. Diseño optimizado para visualización en pantalla grande.</p>
+     </main>
 
-    <div id="agendaModal" class="agenda-modal" aria-hidden="true">
-      <div class="agenda-modal-dialog" role="dialog" aria-modal="true" aria-label="Agenda en pantalla completa">
-        <button id="closeAgendaModalBtn" type="button" class="close-modal-btn">Cerrar</button>
-        <iframe id="agendaModalFrame" title="Agenda en pantalla completa" loading="lazy"></iframe>
-      </div>
-    </div>
+     <div id="agendaModal" class="agenda-modal" aria-hidden="true">
+       <div class="agenda-modal-dialog" role="dialog" aria-modal="true" aria-label="Agenda en pantalla completa">
+         <button id="closeAgendaModalBtn" type="button" class="close-modal-btn">Cerrar</button>
+         <iframe id="agendaModalFrame" title="Agenda en pantalla completa" loading="lazy"></iframe>
+       </div>
+     </div>
 
-    <script>
-      function hideLoadingScreen() {
-        const loadingScreen = document.getElementById("loadingScreen");
-        if (!loadingScreen) return;
-        loadingScreen.classList.add("hidden");
-        setTimeout(() => loadingScreen.remove(), 500);
-      }
-
-      function updateDateTimeNow() {
-        const dateTimeLabel = document.getElementById("dateTimeNow");
-        if (!dateTimeLabel) return;
-
-        const now = new Date();
-        const dayName = now.toLocaleDateString("es-AR", { weekday: "long" });
-        const dateValue = now.toLocaleDateString("es-AR", {
-          day: "2-digit",
-          month: "2-digit",
-          year: "numeric",
-        });
-        const timeValue = now.toLocaleTimeString("es-AR");
-        dateTimeLabel.textContent = `${dayName} ${dateValue} - ${timeValue}`;
-      }
-
-      function refreshBoard() {
-        const ids = ["cal1", "cal2", "cal3"];
-        const now = Date.now();
-        for (const id of ids) {
-          const iframe = document.getElementById(id);
-          if (!iframe || !iframe.src) continue;
-          const url = new URL(iframe.src);
-          url.searchParams.set("_ts", String(now));
-          iframe.src = url.toString();
-        }
-      }
-
-      const agendaModal = document.getElementById("agendaModal");
-      const agendaModalFrame = document.getElementById("agendaModalFrame");
-      const closeAgendaModalBtn = document.getElementById("closeAgendaModalBtn");
-      const agendaIframes = document.querySelectorAll(".card iframe");
-
-      function openAgendaModal(src) {
-        if (!agendaModal || !agendaModalFrame || !src) return;
-        agendaModalFrame.src = src;
-        agendaModal.classList.add("open");
-        agendaModal.setAttribute("aria-hidden", "false");
-        document.body.classList.add("modal-open");
-      }
-
-      function closeAgendaModal() {
-        if (!agendaModal || !agendaModalFrame) return;
-        agendaModal.classList.remove("open");
-        agendaModal.setAttribute("aria-hidden", "true");
-        agendaModalFrame.src = "";
-        document.body.classList.remove("modal-open");
-      }
-
-      const refreshBtn = document.getElementById("refreshBtn");
-      if (refreshBtn) {
-        refreshBtn.addEventListener("click", refreshBoard);
-      }
-
-      if (closeAgendaModalBtn) {
-        closeAgendaModalBtn.addEventListener("click", closeAgendaModal);
-      }
-
-      if (agendaModal) {
-        agendaModal.addEventListener("click", (event) => {
-          if (event.target === agendaModal) closeAgendaModal();
-        });
-      }
-
-      document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape") closeAgendaModal();
-      });
-
-      agendaIframes.forEach((iframe) => {
-        iframe.addEventListener("click", () => openAgendaModal(iframe.src));
-      });
-
-      document.querySelectorAll(".card h3").forEach((title) => {
-        title.addEventListener("click", () => {
-          const card = title.closest(".card");
-          const iframe = card ? card.querySelector("iframe") : null;
-          if (iframe) openAgendaModal(iframe.src);
-        });
-      });
-
-      updateDateTimeNow();
-      setInterval(updateDateTimeNow, 1000);
-      refreshBoard();
-      setInterval(refreshBoard, 120000);
-      window.addEventListener("load", hideLoadingScreen);
-      setTimeout(hideLoadingScreen, 4000);
-    </script>
-  </body>
+     <script src="./Scripts/index.js"></script>
+     <script src="./Scripts/agenda-board.js"></script>
+   </body>
 </html>
