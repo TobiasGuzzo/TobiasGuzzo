@@ -1,0 +1,6 @@
+print("Perimetro de un rectangulo")
+print("Para saber el perimetro se necesitan:")
+b = int(input("Ingresar Base: "))
+a = int(input("Ingresar Altura: "))
+p = (2*b)+(2*a)
+print("El perimetro es: ", p)   
