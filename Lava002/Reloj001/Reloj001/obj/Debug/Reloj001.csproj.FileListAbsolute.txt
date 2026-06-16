@@ -1,0 +1,10 @@
+D:\CUBOS\Reloj001\Reloj001\bin\Debug\Reloj001.exe.config
+D:\CUBOS\Reloj001\Reloj001\bin\Debug\Reloj001.exe
+D:\CUBOS\Reloj001\Reloj001\bin\Debug\Reloj001.pdb
+D:\CUBOS\Reloj001\Reloj001\obj\Debug\Reloj001.csproj.AssemblyReference.cache
+D:\CUBOS\Reloj001\Reloj001\obj\Debug\Reloj001.Form1.resources
+D:\CUBOS\Reloj001\Reloj001\obj\Debug\Reloj001.Properties.Resources.resources
+D:\CUBOS\Reloj001\Reloj001\obj\Debug\Reloj001.csproj.GenerateResource.cache
+D:\CUBOS\Reloj001\Reloj001\obj\Debug\Reloj001.csproj.CoreCompileInputs.cache
+D:\CUBOS\Reloj001\Reloj001\obj\Debug\Reloj001.exe
+D:\CUBOS\Reloj001\Reloj001\obj\Debug\Reloj001.pdb
